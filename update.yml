@@ -1,0 +1,7 @@
+- name: run playbook
+  hosts: all
+  gather_facts: true
+  tasks:
+
+    - name: run task
+      shell: "ls"
